@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6316834B02A135736699885D /* Pods_ClarifaiSwiftClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28899F2CDB2B7FD9C1F675CD /* Pods_ClarifaiSwiftClient.framework */; };
+		7F142DF92DA085492EE3B898 /* Pods_ClarifaiSwiftClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84332B4CD4B20ACC2692C08 /* Pods_ClarifaiSwiftClientTests.framework */; };
 		B885218E1DC271C800B504C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B885218D1DC271C800B504C9 /* AppDelegate.swift */; };
 		B88521901DC271C800B504C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B885218F1DC271C800B504C9 /* ViewController.swift */; };
 		B88521931DC271C800B504C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88521911DC271C800B504C9 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		B88521981DC271C800B504C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88521961DC271C800B504C9 /* LaunchScreen.storyboard */; };
 		B88521A31DC271C800B504C9 /* ClarifaiSwiftClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88521A21DC271C800B504C9 /* ClarifaiSwiftClientTests.swift */; };
 		B88521AE1DC271C800B504C9 /* ClarifaiSwiftClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88521AD1DC271C800B504C9 /* ClarifaiSwiftClientUITests.swift */; };
+		CBF5B4CED31B5FBE91BF1C1A /* Pods_ClarifaiSwiftClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1990462C2EBC4BE1C59D6244 /* Pods_ClarifaiSwiftClientUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08326C59CDD22C4CE50A73C0 /* Pods-ClarifaiSwiftClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClarifaiSwiftClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClarifaiSwiftClientTests/Pods-ClarifaiSwiftClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		1990462C2EBC4BE1C59D6244 /* Pods_ClarifaiSwiftClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClarifaiSwiftClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2085B18EFE13B75344F0A4E2 /* Pods-ClarifaiSwiftClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClarifaiSwiftClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClarifaiSwiftClient/Pods-ClarifaiSwiftClient.debug.xcconfig"; sourceTree = "<group>"; };
+		28899F2CDB2B7FD9C1F675CD /* Pods_ClarifaiSwiftClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClarifaiSwiftClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3B51C6A5750C58ECDB9F61 /* Pods-ClarifaiSwiftClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClarifaiSwiftClientUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClarifaiSwiftClientUITests/Pods-ClarifaiSwiftClientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8DD42C813487DC37663533C8 /* Pods-ClarifaiSwiftClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClarifaiSwiftClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClarifaiSwiftClientTests/Pods-ClarifaiSwiftClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF698E4CFF5852A69234BE24 /* Pods-ClarifaiSwiftClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClarifaiSwiftClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClarifaiSwiftClient/Pods-ClarifaiSwiftClient.release.xcconfig"; sourceTree = "<group>"; };
 		B885218A1DC271C800B504C9 /* ClarifaiSwiftClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClarifaiSwiftClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B885218D1DC271C800B504C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B885218F1DC271C800B504C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		B88521A91DC271C800B504C9 /* ClarifaiSwiftClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClarifaiSwiftClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88521AD1DC271C800B504C9 /* ClarifaiSwiftClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClarifaiSwiftClientUITests.swift; sourceTree = "<group>"; };
 		B88521AF1DC271C800B504C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84332B4CD4B20ACC2692C08 /* Pods_ClarifaiSwiftClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClarifaiSwiftClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9118130A480FA9F9337E0C4 /* Pods-ClarifaiSwiftClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClarifaiSwiftClientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClarifaiSwiftClientUITests/Pods-ClarifaiSwiftClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6316834B02A135736699885D /* Pods_ClarifaiSwiftClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F142DF92DA085492EE3B898 /* Pods_ClarifaiSwiftClientTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF5B4CED31B5FBE91BF1C1A /* Pods_ClarifaiSwiftClientUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FACB035F9801F5EEE6FB960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28899F2CDB2B7FD9C1F675CD /* Pods_ClarifaiSwiftClient.framework */,
+				C84332B4CD4B20ACC2692C08 /* Pods_ClarifaiSwiftClientTests.framework */,
+				1990462C2EBC4BE1C59D6244 /* Pods_ClarifaiSwiftClientUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B88521811DC271C800B504C9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				B88521A11DC271C800B504C9 /* ClarifaiSwiftClientTests */,
 				B88521AC1DC271C800B504C9 /* ClarifaiSwiftClientUITests */,
 				B885218B1DC271C800B504C9 /* Products */,
+				D0E57DDC8B1B3CE02BB258D4 /* Pods */,
+				6FACB035F9801F5EEE6FB960 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = ClarifaiSwiftClientUITests;
 			sourceTree = "<group>";
 		};
+		D0E57DDC8B1B3CE02BB258D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2085B18EFE13B75344F0A4E2 /* Pods-ClarifaiSwiftClient.debug.xcconfig */,
+				AF698E4CFF5852A69234BE24 /* Pods-ClarifaiSwiftClient.release.xcconfig */,
+				8DD42C813487DC37663533C8 /* Pods-ClarifaiSwiftClientTests.debug.xcconfig */,
+				08326C59CDD22C4CE50A73C0 /* Pods-ClarifaiSwiftClientTests.release.xcconfig */,
+				F9118130A480FA9F9337E0C4 /* Pods-ClarifaiSwiftClientUITests.debug.xcconfig */,
+				8B3B51C6A5750C58ECDB9F61 /* Pods-ClarifaiSwiftClientUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B88521B21DC271C800B504C9 /* Build configuration list for PBXNativeTarget "ClarifaiSwiftClient" */;
 			buildPhases = (
+				169EDF91BF8DDDE0512806F2 /* [CP] Check Pods Manifest.lock */,
 				B88521861DC271C800B504C9 /* Sources */,
 				B88521871DC271C800B504C9 /* Frameworks */,
 				B88521881DC271C800B504C9 /* Resources */,
+				2308E1A3D5A78BFAE94C6C80 /* [CP] Embed Pods Frameworks */,
+				AAC8E3A339EB03357392C41C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B88521B51DC271C800B504C9 /* Build configuration list for PBXNativeTarget "ClarifaiSwiftClientTests" */;
 			buildPhases = (
+				3D1C8677A928B4258CB37215 /* [CP] Check Pods Manifest.lock */,
 				B885219A1DC271C800B504C9 /* Sources */,
 				B885219B1DC271C800B504C9 /* Frameworks */,
 				B885219C1DC271C800B504C9 /* Resources */,
+				EFA08A2E9F5F135A342FF0E4 /* [CP] Embed Pods Frameworks */,
+				5D3BA3A8F4F970B969D5AC02 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B88521B81DC271C800B504C9 /* Build configuration list for PBXNativeTarget "ClarifaiSwiftClientUITests" */;
 			buildPhases = (
+				071D03809CFD462BD1B07923 /* [CP] Check Pods Manifest.lock */,
 				B88521A51DC271C800B504C9 /* Sources */,
 				B88521A61DC271C800B504C9 /* Frameworks */,
 				B88521A71DC271C800B504C9 /* Resources */,
+				27C5283FE5CBDACD3BBD4C3C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		071D03809CFD462BD1B07923 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		169EDF91BF8DDDE0512806F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2308E1A3D5A78BFAE94C6C80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClarifaiSwiftClient/Pods-ClarifaiSwiftClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27C5283FE5CBDACD3BBD4C3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClarifaiSwiftClientUITests/Pods-ClarifaiSwiftClientUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D1C8677A928B4258CB37215 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D3BA3A8F4F970B969D5AC02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClarifaiSwiftClientTests/Pods-ClarifaiSwiftClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAC8E3A339EB03357392C41C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClarifaiSwiftClient/Pods-ClarifaiSwiftClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFA08A2E9F5F135A342FF0E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClarifaiSwiftClientTests/Pods-ClarifaiSwiftClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B88521861DC271C800B504C9 /* Sources */ = {
@@ -410,6 +581,7 @@
 		};
 		B88521B31DC271C800B504C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2085B18EFE13B75344F0A4E2 /* Pods-ClarifaiSwiftClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ClarifaiSwiftClient/Info.plist;
@@ -422,6 +594,7 @@
 		};
 		B88521B41DC271C800B504C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF698E4CFF5852A69234BE24 /* Pods-ClarifaiSwiftClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ClarifaiSwiftClient/Info.plist;
@@ -434,6 +607,7 @@
 		};
 		B88521B61DC271C800B504C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD42C813487DC37663533C8 /* Pods-ClarifaiSwiftClientTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +622,7 @@
 		};
 		B88521B71DC271C800B504C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08326C59CDD22C4CE50A73C0 /* Pods-ClarifaiSwiftClientTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +637,7 @@
 		};
 		B88521B91DC271C800B504C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9118130A480FA9F9337E0C4 /* Pods-ClarifaiSwiftClientUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ClarifaiSwiftClientUITests/Info.plist;
@@ -475,6 +651,7 @@
 		};
 		B88521BA1DC271C800B504C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3B51C6A5750C58ECDB9F61 /* Pods-ClarifaiSwiftClientUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ClarifaiSwiftClientUITests/Info.plist;
@@ -505,6 +682,7 @@
 				B88521B41DC271C800B504C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B88521B51DC271C800B504C9 /* Build configuration list for PBXNativeTarget "ClarifaiSwiftClientTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +691,7 @@
 				B88521B71DC271C800B504C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B88521B81DC271C800B504C9 /* Build configuration list for PBXNativeTarget "ClarifaiSwiftClientUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +700,7 @@
 				B88521BA1DC271C800B504C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
