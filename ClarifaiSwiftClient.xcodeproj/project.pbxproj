@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B885218E1DC271C800B504C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B885218D1DC271C800B504C9 /* AppDelegate.swift */; };
+		B88521901DC271C800B504C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B885218F1DC271C800B504C9 /* ViewController.swift */; };
+		B88521931DC271C800B504C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88521911DC271C800B504C9 /* Main.storyboard */; };
+		B88521951DC271C800B504C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88521941DC271C800B504C9 /* Assets.xcassets */; };
+		B88521981DC271C800B504C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88521961DC271C800B504C9 /* LaunchScreen.storyboard */; };
+		B88521A31DC271C800B504C9 /* ClarifaiSwiftClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88521A21DC271C800B504C9 /* ClarifaiSwiftClientTests.swift */; };
+		B88521AE1DC271C800B504C9 /* ClarifaiSwiftClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88521AD1DC271C800B504C9 /* ClarifaiSwiftClientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B885219F1DC271C800B504C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B88521821DC271C800B504C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B88521891DC271C800B504C9;
+			remoteInfo = ClarifaiSwiftClient;
+		};
+		B88521AA1DC271C800B504C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B88521821DC271C800B504C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B88521891DC271C800B504C9;
+			remoteInfo = ClarifaiSwiftClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B885218A1DC271C800B504C9 /* ClarifaiSwiftClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClarifaiSwiftClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B885218D1DC271C800B504C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B885218F1DC271C800B504C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B88521921DC271C800B504C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B88521941DC271C800B504C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B88521971DC271C800B504C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B88521991DC271C800B504C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B885219E1DC271C800B504C9 /* ClarifaiSwiftClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClarifaiSwiftClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88521A21DC271C800B504C9 /* ClarifaiSwiftClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClarifaiSwiftClientTests.swift; sourceTree = "<group>"; };
+		B88521A41DC271C800B504C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88521A91DC271C800B504C9 /* ClarifaiSwiftClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClarifaiSwiftClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88521AD1DC271C800B504C9 /* ClarifaiSwiftClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClarifaiSwiftClientUITests.swift; sourceTree = "<group>"; };
+		B88521AF1DC271C800B504C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B88521871DC271C800B504C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B885219B1DC271C800B504C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88521A61DC271C800B504C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B88521811DC271C800B504C9 = {
+			isa = PBXGroup;
+			children = (
+				B885218C1DC271C800B504C9 /* ClarifaiSwiftClient */,
+				B88521A11DC271C800B504C9 /* ClarifaiSwiftClientTests */,
+				B88521AC1DC271C800B504C9 /* ClarifaiSwiftClientUITests */,
+				B885218B1DC271C800B504C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B885218B1DC271C800B504C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B885218A1DC271C800B504C9 /* ClarifaiSwiftClient.app */,
+				B885219E1DC271C800B504C9 /* ClarifaiSwiftClientTests.xctest */,
+				B88521A91DC271C800B504C9 /* ClarifaiSwiftClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B885218C1DC271C800B504C9 /* ClarifaiSwiftClient */ = {
+			isa = PBXGroup;
+			children = (
+				B885218D1DC271C800B504C9 /* AppDelegate.swift */,
+				B885218F1DC271C800B504C9 /* ViewController.swift */,
+				B88521911DC271C800B504C9 /* Main.storyboard */,
+				B88521941DC271C800B504C9 /* Assets.xcassets */,
+				B88521961DC271C800B504C9 /* LaunchScreen.storyboard */,
+				B88521991DC271C800B504C9 /* Info.plist */,
+			);
+			path = ClarifaiSwiftClient;
+			sourceTree = "<group>";
+		};
+		B88521A11DC271C800B504C9 /* ClarifaiSwiftClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				B88521A21DC271C800B504C9 /* ClarifaiSwiftClientTests.swift */,
+				B88521A41DC271C800B504C9 /* Info.plist */,
+			);
+			path = ClarifaiSwiftClientTests;
+			sourceTree = "<group>";
+		};
+		B88521AC1DC271C800B504C9 /* ClarifaiSwiftClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B88521AD1DC271C800B504C9 /* ClarifaiSwiftClientUITests.swift */,
+				B88521AF1DC271C800B504C9 /* Info.plist */,
+			);
+			path = ClarifaiSwiftClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B88521891DC271C800B504C9 /* ClarifaiSwiftClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88521B21DC271C800B504C9 /* Build configuration list for PBXNativeTarget "ClarifaiSwiftClient" */;
+			buildPhases = (
+				B88521861DC271C800B504C9 /* Sources */,
+				B88521871DC271C800B504C9 /* Frameworks */,
+				B88521881DC271C800B504C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClarifaiSwiftClient;
+			productName = ClarifaiSwiftClient;
+			productReference = B885218A1DC271C800B504C9 /* ClarifaiSwiftClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B885219D1DC271C800B504C9 /* ClarifaiSwiftClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88521B51DC271C800B504C9 /* Build configuration list for PBXNativeTarget "ClarifaiSwiftClientTests" */;
+			buildPhases = (
+				B885219A1DC271C800B504C9 /* Sources */,
+				B885219B1DC271C800B504C9 /* Frameworks */,
+				B885219C1DC271C800B504C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B88521A01DC271C800B504C9 /* PBXTargetDependency */,
+			);
+			name = ClarifaiSwiftClientTests;
+			productName = ClarifaiSwiftClientTests;
+			productReference = B885219E1DC271C800B504C9 /* ClarifaiSwiftClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B88521A81DC271C800B504C9 /* ClarifaiSwiftClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88521B81DC271C800B504C9 /* Build configuration list for PBXNativeTarget "ClarifaiSwiftClientUITests" */;
+			buildPhases = (
+				B88521A51DC271C800B504C9 /* Sources */,
+				B88521A61DC271C800B504C9 /* Frameworks */,
+				B88521A71DC271C800B504C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B88521AB1DC271C800B504C9 /* PBXTargetDependency */,
+			);
+			name = ClarifaiSwiftClientUITests;
+			productName = ClarifaiSwiftClientUITests;
+			productReference = B88521A91DC271C800B504C9 /* ClarifaiSwiftClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B88521821DC271C800B504C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Minh Hoang";
+				TargetAttributes = {
+					B88521891DC271C800B504C9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					B885219D1DC271C800B504C9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B88521891DC271C800B504C9;
+					};
+					B88521A81DC271C800B504C9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B88521891DC271C800B504C9;
+					};
+				};
+			};
+			buildConfigurationList = B88521851DC271C800B504C9 /* Build configuration list for PBXProject "ClarifaiSwiftClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B88521811DC271C800B504C9;
+			productRefGroup = B885218B1DC271C800B504C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B88521891DC271C800B504C9 /* ClarifaiSwiftClient */,
+				B885219D1DC271C800B504C9 /* ClarifaiSwiftClientTests */,
+				B88521A81DC271C800B504C9 /* ClarifaiSwiftClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B88521881DC271C800B504C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88521981DC271C800B504C9 /* LaunchScreen.storyboard in Resources */,
+				B88521951DC271C800B504C9 /* Assets.xcassets in Resources */,
+				B88521931DC271C800B504C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B885219C1DC271C800B504C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88521A71DC271C800B504C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B88521861DC271C800B504C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88521901DC271C800B504C9 /* ViewController.swift in Sources */,
+				B885218E1DC271C800B504C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B885219A1DC271C800B504C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88521A31DC271C800B504C9 /* ClarifaiSwiftClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88521A51DC271C800B504C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88521AE1DC271C800B504C9 /* ClarifaiSwiftClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B88521A01DC271C800B504C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B88521891DC271C800B504C9 /* ClarifaiSwiftClient */;
+			targetProxy = B885219F1DC271C800B504C9 /* PBXContainerItemProxy */;
+		};
+		B88521AB1DC271C800B504C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B88521891DC271C800B504C9 /* ClarifaiSwiftClient */;
+			targetProxy = B88521AA1DC271C800B504C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B88521911DC271C800B504C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B88521921DC271C800B504C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B88521961DC271C800B504C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B88521971DC271C800B504C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B88521B01DC271C800B504C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B88521B11DC271C800B504C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B88521B31DC271C800B504C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClarifaiSwiftClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.mhoang.ClarifaiSwiftClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B88521B41DC271C800B504C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClarifaiSwiftClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.mhoang.ClarifaiSwiftClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B88521B61DC271C800B504C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClarifaiSwiftClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.mhoang.ClarifaiSwiftClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClarifaiSwiftClient.app/ClarifaiSwiftClient";
+			};
+			name = Debug;
+		};
+		B88521B71DC271C800B504C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClarifaiSwiftClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.mhoang.ClarifaiSwiftClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClarifaiSwiftClient.app/ClarifaiSwiftClient";
+			};
+			name = Release;
+		};
+		B88521B91DC271C800B504C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ClarifaiSwiftClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.mhoang.ClarifaiSwiftClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ClarifaiSwiftClient;
+			};
+			name = Debug;
+		};
+		B88521BA1DC271C800B504C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ClarifaiSwiftClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.mhoang.ClarifaiSwiftClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ClarifaiSwiftClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B88521851DC271C800B504C9 /* Build configuration list for PBXProject "ClarifaiSwiftClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88521B01DC271C800B504C9 /* Debug */,
+				B88521B11DC271C800B504C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B88521B21DC271C800B504C9 /* Build configuration list for PBXNativeTarget "ClarifaiSwiftClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88521B31DC271C800B504C9 /* Debug */,
+				B88521B41DC271C800B504C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B88521B51DC271C800B504C9 /* Build configuration list for PBXNativeTarget "ClarifaiSwiftClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88521B61DC271C800B504C9 /* Debug */,
+				B88521B71DC271C800B504C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B88521B81DC271C800B504C9 /* Build configuration list for PBXNativeTarget "ClarifaiSwiftClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88521B91DC271C800B504C9 /* Debug */,
+				B88521BA1DC271C800B504C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B88521821DC271C800B504C9 /* Project object */;
+}
