@@ -16,6 +16,8 @@
 		B88521981DC271C800B504C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88521961DC271C800B504C9 /* LaunchScreen.storyboard */; };
 		B88521A31DC271C800B504C9 /* ClarifaiSwiftClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88521A21DC271C800B504C9 /* ClarifaiSwiftClientTests.swift */; };
 		B88521AE1DC271C800B504C9 /* ClarifaiSwiftClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88521AD1DC271C800B504C9 /* ClarifaiSwiftClientUITests.swift */; };
+		B88521BC1DC2735300B504C9 /* ClarifaiAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88521BB1DC2735300B504C9 /* ClarifaiAPI.swift */; };
+		B88521BE1DC2745700B504C9 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88521BD1DC2745700B504C9 /* Config.swift */; };
 		CBF5B4CED31B5FBE91BF1C1A /* Pods_ClarifaiSwiftClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1990462C2EBC4BE1C59D6244 /* Pods_ClarifaiSwiftClientUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,8 @@
 		B88521A91DC271C800B504C9 /* ClarifaiSwiftClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClarifaiSwiftClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88521AD1DC271C800B504C9 /* ClarifaiSwiftClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClarifaiSwiftClientUITests.swift; sourceTree = "<group>"; };
 		B88521AF1DC271C800B504C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88521BB1DC2735300B504C9 /* ClarifaiAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClarifaiAPI.swift; sourceTree = "<group>"; };
+		B88521BD1DC2745700B504C9 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		C84332B4CD4B20ACC2692C08 /* Pods_ClarifaiSwiftClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClarifaiSwiftClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9118130A480FA9F9337E0C4 /* Pods-ClarifaiSwiftClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClarifaiSwiftClientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClarifaiSwiftClientUITests/Pods-ClarifaiSwiftClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +134,8 @@
 				B88521941DC271C800B504C9 /* Assets.xcassets */,
 				B88521961DC271C800B504C9 /* LaunchScreen.storyboard */,
 				B88521991DC271C800B504C9 /* Info.plist */,
+				B88521BB1DC2735300B504C9 /* ClarifaiAPI.swift */,
+				B88521BD1DC2745700B504C9 /* Config.swift */,
 			);
 			path = ClarifaiSwiftClient;
 			sourceTree = "<group>";
@@ -430,6 +436,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88521BC1DC2735300B504C9 /* ClarifaiAPI.swift in Sources */,
+				B88521BE1DC2745700B504C9 /* Config.swift in Sources */,
 				B88521901DC271C800B504C9 /* ViewController.swift in Sources */,
 				B885218E1DC271C800B504C9 /* AppDelegate.swift in Sources */,
 			);
